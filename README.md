@@ -33,7 +33,7 @@ This project aims to develop a real-time pill identification system using image 
 5. Press the 'Esc' key to exit the application.
 
 ## Additional Notes
-
+- only a limited amount of pill_detection models have been trained, thus the program will be limited to paracetamol, amoxcylin etc
 - Ensure proper camera setup and lighting conditions for accurate predictions.
 - The model and labels files must be placed in the specified directories for the application to function correctly.
 - Future improvements may include integrating prescription information and expanding the dataset for enhanced prediction capabilities and integrating a text to voice model as well.
