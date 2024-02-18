@@ -2,15 +2,15 @@
 
 ## Introduction
 
-This project aims to develop a real-time pill identification system using image detection technology. The system utilizes a pre-trained Keras model to analyze images captured from a camera interface and predict the name of the medicine pill with high accuracy. The user-friendly interface, developed using Tkinter, enhances accessibility and usability, making it suitable for various healthcare applications.
+This project aims to develop a real-time pill identification system using image detection technology. The project involves training a Keras model, to analyze images captured from a camera interface and predict the name of the medicine pill with high accuracy. The user-friendly interface, developed using Tkinter, enhances accessibility and usability, making it a great help for elderly and visually impaired persons.
 
 ## Features
 
 - Real-time pill identification through camera input.
-- Integration of a pre-trained Keras model for accurate prediction.
+- Training Keras model for prediction.
 - User-friendly interface developed with Tkinter.
-- Ability to capture and predict single or continuous video frames.
 - Display of prediction results including the pill name and confidence score.
+-Storing the prescription of the medicine in a csv file, to display along with the medicine name afeter detection.
 
 ## Installation
 
@@ -36,7 +36,11 @@ This project aims to develop a real-time pill identification system using image 
 - only a limited amount of pill_detection models have been trained, thus the program will be limited to paracetamol, amoxcylin etc
 - Ensure proper camera setup and lighting conditions for accurate predictions.
 - The model and labels files must be placed in the specified directories for the application to function correctly.
-- Future improvements may include integrating prescription information and expanding the dataset for enhanced prediction capabilities and integrating a text to voice model as well.
+
+#Future improvements
+-Integrating an image to text model as well to further improve the reliability of the project.
+-Setting up voice to text conversion for visually impaired.
+-Moving it to a mobile application, say on flutter, to provide an even better interface and feautures like notification system to remind the user regarding their medicine intake.
 
 
 
