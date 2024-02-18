@@ -42,6 +42,9 @@ This project aims to develop a real-time pill identification system using image 
 -Setting up voice to text conversion for visually impaired.
 -Moving it to a mobile application, say on flutter, to provide an even better interface and feautures like notification system to remind the user regarding their medicine intake.
 
+#Working Video
+https://drive.google.com/file/d/1yJFUfj4NJiUKDhe6qypQWGu1Nhvzhcxv/view?usp=sharing
+
 
 
 
